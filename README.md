@@ -13,14 +13,21 @@ O objetivo da atividade é realizar os testes de caixa branca do código abaixo.
 
 ## Complexidade
 <p>A complexidade ciclomática do código CaixaBranca.verificarUsuario() é 2. </p>
+
 <p>A complexidade ciclomática é uma métrica de software que mede a complexidade de um bloco de código, considerando o número de caminhos independentes que podem ser executados.Para calcular a complexidade ciclomática, precisamos contar o número de decisões no código. No caso do código CaixaBranca.verificarUsuario(), há uma única decisão, que é o if que verifica se o usuário existe.
 Portanto, a complexidade ciclomática é: </p>
+
 <p>nC2 - 2 + 1 = 2</p>
+
 <p>onde:</p>
 <p>n é o número de decisões no código. Aplicando a fórmula, temos: </p>
+
 <p>nC2 - 2 + 1 = 1C2 - 2 + 1 </p>
+
 <p>= 1 - 2 + 1 </p>
+
 <p>= 2 </p>
+
 <p>Portanto, a complexidade ciclomática do código é 2 </p>
 ## Possíveis fluxos
 
