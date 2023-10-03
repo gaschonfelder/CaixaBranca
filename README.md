@@ -35,5 +35,4 @@ Portanto, a complexidade ciclomática é: </p>
 ![fluxo1](https://github.com/gaschonfelder/CaixaBranca/assets/111383427/7f2652a8-017c-40e8-bd00-479aa8a21fe0)
 
 ### Fluxo de exceções
-![fluxo2](https://github.com/gaschonfelder/CaixaBranca/assets/111383427/8460415c-7d4f-4b28-bbf9-911551ab5206)
-
+![fluxo2](https://github.com/gaschonfelder/CaixaBranca/assets/111383427/4ff39159-956d-4cb9-98c9-0bc2d1b36f3e)
