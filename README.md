@@ -5,22 +5,31 @@ O objetivo da atividade é realizar os testes de caixa branca do código abaixo.
 
 ## Código
 
-![image](https://github.com/gaschonfelder/TesteCaixaBranca/assets/111383427/126fb421-c12f-4581-a96f-ef7d419f7f25)
+![codigo caixa branca](https://github.com/gaschonfelder/CaixaBranca/assets/111383427/dabc5d81-584b-497f-863f-17db56820c65)
 
-## Análise
+## Grafo de Fluxo
 
-1 - Documentação
+![FLuxo](https://github.com/gaschonfelder/CaixaBranca/assets/111383427/70c31d6e-0d5e-4e1f-be61-ce95cebb00f2)
 
-O código não possui documentação, dificultando a compreensão do seu funcionamento. É importante documentar o código para que terceiros entendam como ele funciona.
+## Complexidade
 
-2 - Legibilidade e organização
+A complexidade ciclomática do código CaixaBranca.verificarUsuario() é 2.
 
-Poderia ser melhorado com a utilização de comentários para explicar o funcionamento de cada bloco de código.
+A complexidade ciclomática é uma métrica de software que mede a complexidade de um bloco de código, considerando o número de caminhos independentes que podem ser executados.Para calcular a complexidade ciclomática, precisamos contar o número de decisões no código. No caso do código CaixaBranca.verificarUsuario(), há uma única decisão, que é o if que verifica se o usuário existe.
+Portanto, a complexidade ciclomática é:
+nC2 - 2 + 1 = 2
+onde:
+n é o número de decisões no código
+Aplicando a fórmula, temos:
+nC2 - 2 + 1 = 1C2 - 2 + 1
+= 1 - 2 + 1
+= 2
+Portanto, a complexidade ciclomática do código é 2
 
-3 - NullPointers
+## Possíveis fluxos
 
-O código não trata todos os NullPointers. Por exemplo, a variável "nome" pode ser nula se a consulta SQL não retornar resultado.
+### Fluxo Principal
+![fluxo1](https://github.com/gaschonfelder/CaixaBranca/assets/111383427/7f2652a8-017c-40e8-bd00-479aa8a21fe0)
 
-4 - Conexões
-
-As conexões não são fechadas após o uso.
+## Fluxo de exceções
+![fluxo2](https://github.com/gaschonfelder/CaixaBranca/assets/111383427/d4d32706-12d9-4178-ba04-d75bf99c67f1)
