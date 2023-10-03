@@ -1,7 +1,7 @@
 # TesteCaixaBranca
 ## Descrição
 
-O objetivo da atividade é realizar os testes de caixa branca do código abaixo.
+O objetivo da atividade é realizar fluxo de grafo do código abaixo.
 
 ## Código
 
